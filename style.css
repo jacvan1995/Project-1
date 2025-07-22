@@ -121,6 +121,7 @@ button:active {
     font-size: 40px;
     border: none;
     color:#7342d6;
+    display: none;
 }
 .menu__backdrop {
     position: absolute;
@@ -131,10 +132,12 @@ button:active {
     bottom: 0;
     z-index: 100;
     transition: all 300ms ease;
+    visibility: hidden;
+    opacity: 0;
 }
 .menu--open {
     max-height: 100vh;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 .menu--open .menu__backdrop {
     visibility: visible;
