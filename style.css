@@ -196,6 +196,7 @@ button:active {
     left: 0;
     width: 101vw;
     height: 12vw;
+    transform: translateY(-100%);
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
